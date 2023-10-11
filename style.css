@@ -17,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(54, 54, 54);
 }
 
 /* Transition */
@@ -148,4 +148,102 @@ a:hover {
 }
 .hamburger-icon span:first-child {
   transform: none;
+}
+
+/* Section */
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+/*Icon*/
+.icon {
+  cursor: pointer;
+  height: 4rem;
+}
+
+/* Introduction Section */
+#introduction {
+  position: relative;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text-p {
+  font-weight: 600;
+}
+
+.section__text-p1 {
+  text-align: center;
+}
+
+.section__text-p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.about-container {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: column;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-container,
+.about-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-pic {
+  border-radius: 2rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(54, 54, 54) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section_pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
 }
