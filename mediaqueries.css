@@ -1,10 +1,14 @@
 @media screen and (max-width: 1200px) {
-  #profile {
+  #introduction {
     height: 83vh;
     margin-bottom: 6rem;
   }
 
   .about-containers {
+    flex-wrap: wrap;
+  }
+
+  .box-containers {
     flex-wrap: wrap;
   }
 }
@@ -16,12 +20,12 @@
     display: flex;
   }
 
-  #experience,
-  .experience-details-container {
+  #skills,
+  .skills-details-container {
     margin-top: 2rem;
   }
 
-  #profile,
+  #introduction,
   .section-container {
     display: block;
   }
@@ -47,6 +51,10 @@
   .about-containers {
     margin-top: 0;
   }
+
+  .box-containers {
+    margin-top: 0;
+  }
 }
 @media screen and (max-width: 1200px) {
   #contact,
@@ -54,7 +62,7 @@
     height: 40vh;
   }
 
-  #profile {
+  #introduction {
     height: 83vh;
     margin-bottom: 0;
   }
@@ -73,6 +81,11 @@
     flex-wrap: wrap;
   }
 
+  .box-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
   .contact-info-container {
     margin: 0;
   }
@@ -82,7 +95,7 @@
     font-size: 1rem;
   }
 
-  .experience-sub-title {
+  .projects-sub-title {
     font-size: 1.5rem;
   }
   .logo {
